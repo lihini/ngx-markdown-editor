@@ -38,6 +38,7 @@
     "format:check": "prettier -c .",
     "format:write": "prettier -w .",
     "deps:check": "ncu",
+    "prepare": "npm run build:prod",
     "commit": "cz"
   },
   "private": true,
